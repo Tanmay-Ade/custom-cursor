@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto";
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cursor {
+    height: 20px;
+    width: 20px;
+    background-color: seagreen;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 10px 10px 35px yellow;
+    transition: all ease 0.2s;
+}
+
+#heading{
+    color: seagreen;
+    font-size: 10rem;
+    letter-spacing: 4px;
+    font-weight: 900;
+    -webkit-text-stroke: 4px yellow;
+    color: transparent;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
